@@ -1,0 +1,28 @@
+{
+  "name": "Remove Baidu hotList",
+  "description": "去除百度搜索右侧的新闻热榜",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "https://www.baidu.com:*/*"
+  ],
+  "icons": {
+    "16": "favicon.png",
+    "48": "favicon.png",
+    "128": "favicon.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.baidu.com:*/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
