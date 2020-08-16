@@ -7,6 +7,12 @@
 缺点：需要手动点击按钮来确认对单个页面的隐藏操作，无全局操作，无状态记录。
 ```
 
+## Project technology stack
+
+```
+Chrome 插件 + Vue
+```
+
 ## Plugin usage
 
 ```
